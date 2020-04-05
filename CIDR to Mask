@@ -1,0 +1,22 @@
+subnet = ['255.255.255.254', '255.255.255.252', '255.255.255.248', '255.255.255.240', '255.255.255.224',
+'255.255.255.192', '255.255.255.128', '255.255.255.0']
+
+cidr = ['/31', '/30', '/29', '/28', '/27', '/26', '/25', '/24']
+
+
+mask = input('Enter CIDR: ')
+if mask == cidr[0]:
+    print("Your subnet mask is: ", subnet[0])
+elif mask == cidr[1]:
+    print("Your subnet mask is: ", subnet[1])
+elif mask == cidr[2]:
+    print("Your subnet mask is: ", subnet[2])
+elif mask == cidr[3]:
+    print("Your subnet mask is: ", subnet[3])
+elif mask == cidr[4]:
+    print("Your subnet mask is: ", subnet[4])
+elif mask == cidr[5]:
+    print("Your subnet mask is: ", subnet[5])
+elif mask == cidr[6]:
+    print("Your subnet mask is: ", subnet[6])
+
